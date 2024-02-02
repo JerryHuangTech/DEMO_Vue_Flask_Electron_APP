@@ -1,6 +1,6 @@
 # DEMO_Vue_Flask_Electron_APP 整合應用程式
 
-本專案展示如何使用 Electron 來整合 Vue.js 和 Flask，形成一個互動式的應用程式。在這個應用程式中，Flask 作為後端伺服器，它會隨著應用程式的啟動而運行，這允許在 Electron 框架下運行的 Vue.js 前端進行 API 請求或執行其他操作。
+主要用於驗證微服務應用程式的開發，當該程式啟動時，同時啟動API服務器，通訊方式主要採用API。此專案旨在演示如何使用Electron整合Vue.js和Flask，以創建一個互動式應用程式。在此應用程式中，Flask充當後端伺服器，會在應用程式啟動時運行，這使得在Electron框架下運行的Vue.js前端能夠進行API請求和執行其他操作。
 
 ![應用程式示意圖](./doc/demo1.png)
 
