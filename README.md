@@ -1,6 +1,6 @@
 # DEMO_Vue_Flask_Electron_APP 整合應用程式
 
-主要用於驗證微服務應用程式的開發，當該程式啟動時，同時啟動API服務器，通訊方式主要採用API。此專案旨在演示如何使用Electron整合Vue.js和Flask，以創建一個互動式應用程式。在此應用程式中，Flask充當後端伺服器，會在應用程式啟動時運行，這使得在Electron框架下運行的Vue.js前端能夠進行API請求和執行其他操作。
+該專案主要從微服務發想，需要一個完整介面，同時能隨時可以拆換的內部，進而產生的測試專案，該專案內部同時有Javascript的互動性與Python運算的擴充考量，其利用基於Javascript之NPM生態的Electron + Vue.js下，整合啟動Python的Flask。當該程式啟動時，同時啟動API服務器，通訊方式主要採用API。此專案旨在演示如何使用Electron整合Vue.js和Flask，以創建一個互動式應用程式。在此應用程式中，Flask充當後端伺服器，會在應用程式啟動時運行，這使得在Electron框架下運行的Vue.js前端能夠進行API請求和執行其他操作。
 
 ![應用程式示意圖](./doc/demo1.png)
 
